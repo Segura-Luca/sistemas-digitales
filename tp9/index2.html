@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>luca</title>
+</head>
+<body>
+    <h1>Ingrese sus datos:</h1>
+    <form action="formulario (2).php" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <p>Seleccione sus estudios:</p>
+
+
+        <input type="radio"  name="estudio" value="Primarios" required>
+        <label for="primarios">Primarios</label> <br>
+        
+        <input type="radio" name="estudio" value="Secundarios">
+        <label for="secundarios">Secundarios</label><br>
+        
+        <input type="radio"  name="estudio" value="Terciario">
+        <label for="terciario">Terciario</label><br>
+        
+        <input type="radio"  name="estudio" value="Universitario">
+        <label for="universitario">Universitario</label><br>
+        
+        <input type="radio"  name="estudio" value="Sin estudio">
+        <label for="sin_estudios">Sin estudios</label>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
