@@ -1,0 +1,11 @@
+<?php $usuarios = [
+    "juan" => "clave1",
+    "pepe" => "clave2",
+    "martin" => "clave3",
+    "lucas" => "clave4",
+    "pedro" => "clave5"
+];
+foreach ($usuarios as $usuario => $clave) {
+    echo "$usuario => $clave\n";
+}
+?>

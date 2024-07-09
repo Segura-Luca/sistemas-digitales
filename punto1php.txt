@@ -1,0 +1,5 @@
+<?php
+$dia = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
+echo $dia[0] . "\n"; 
+echo $dia[count($dia)-1] . "\n"; 
+?>
