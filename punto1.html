@@ -1,0 +1,33 @@
+<head>
+  
+</head>
+<body>
+ 
+    <form action="tp11 pagina1.php" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"
+
+ required><br><br>
+        
+        <label for="direccion">Direccion:</label>
+
+        <input type="text" id="direccion" name="direccion" required><br><br>
+        
+        <h2>Seleccionar pizzas</h2>
+
+        <input type="checkbox" id="jamon_queso"
+
+ name="pizzas[]" value="Jamon y Queso">
+        <label for="jamon_queso">Jamon y Queso</label><br>
+        
+        <input type="checkbox" id="napolitana" name="pizzas[]" value="Napolitana">
+        <label for="napolitana">Napolitana</label><br>
+        
+        <input type="checkbox" id="muzarella" name="pizzas[]" value="Muzarella">
+        <label for="muzarella">Muzarella</label><br><br>
+        
+        <button type="submit">Confirmar Pedido</button>
+    </form>
+</body>
+</html>
